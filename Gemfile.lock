@@ -52,9 +52,13 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.4.0)
     arel (6.0.3)
+    autoprefixer-rails (6.5.1.1)
+      execjs
     awesome_print (1.7.0)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
+    bootstrap-sass (3.2.0.2)
+      sass (~> 3.2)
     builder (3.2.2)
     byebug (9.0.6)
     coffee-rails (4.1.1)
@@ -220,7 +224,9 @@ PLATFORMS
 
 DEPENDENCIES
   active_model_serializers
+  autoprefixer-rails
   awesome_print
+  bootstrap-sass (~> 3.2.0)
   byebug
   coffee-rails (~> 4.1.0)
   database_cleaner
